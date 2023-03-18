@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(26, 25, 25);
+}
+
+h1{
+    width:100%;
+    color:rgb(198, 198, 198);
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    text-align: center;    
+}
+
+
+div#tileBoard{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+div#tiles{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+div#tile {
+    display:flex;
+    border: 1px solid rgb(179, 179, 179);
+    width: 40px;
+    height:40px;
+    align-items: center; 
+    justify-content: center;     
+    margin:3px;
+}
+
+div#keyContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    
+}
+
+div#keyboard{
+    display: flex;
+    flex-direction: row;
+}
+
+div#key{
+    display:flex;
+    margin: 3px;
+    width:fit-content;
+    background: rgb(179, 179, 179);
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 40px;
+    height:50px;
+    align-items: center; 
+    justify-content: center;
+    font-family:sans-serif;
+    font-size: larger;
+    font-weight:800;
+}
+
+div#key1{
+    display:flex;
+    width:fit-content;
+    margin:3px;
+    background: rgb(179, 179, 179);
+    border: 1px solid grey;
+    height:50px;
+    font-size: small; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 7px;
+    
+}
+
+svg.bi.bi-backspace{
+    display:flex;
+    width:60px;
+    margin:3px;
+    background: rgb(179, 179, 179);
+    border: 1px solid grey;
+    height: 50px;
+    font-size: small; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 7px;
+
+}
